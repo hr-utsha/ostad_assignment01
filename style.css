@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* left  */
+.left {
+    width: 20%;
+    height: 100%;
+    background-color: #FF5F49;
+    color: white;
+    position: fixed;
+}
+
+.name {
+    font-size: 30px;
+    margin: 80px 0px 80px 40px;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* right   */
+.right {
+    width: 80%;
+    padding-left: 40px;
+    margin-left: 20%;
+}
+
+.right h1 {
+    font-size: 70px;
+    margin: 80px 0px 0px 0px;
+}
+
+.showcase h4 {
+    font-size: 40px;
+    color: #FF5F49;
+}
+
+.border {
+    height: 8px;
+    width: 50px;
+    background-color: #FF5F49;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.showcase_image{
+    /* background-color: red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+    column-gap: 0px;
+}
+
+.showcase img {
+    width: 500px;
+    height: 300px;
+
+}
+
+/* services  */
+.services{
+    width: 100%;
+    margin: 50px 0px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.services h4{
+    font-size: 40px;
+    color: #FF5F49;
+}
+
+.services .para_1{
+    margin-bottom: 20px;
+}
+
+
+/* designers  */
+.designers {
+    width: 100%;
+    margin: 50px 0px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.designers h4{
+    font-size: 40px;
+    color: #FF5F49;
+}
+.designers .para_1{
+    margin-bottom: 20px;
+}
+.designers .para_3{
+    margin: 20px 0px;
+    font-weight: bold;
+}
+.designer_group{
+    display: flex;
+}
+.designer_group .person{
+    width: 30%;
+}
+.designer_group .person img{
+    width: 100%;
+}
+.designer_group .p2{
+    margin: 0px 20px;
+}
+.designer_name{
+    font-size: 23px;
+    margin: 15px 0px;
+    margin-left: 20px;
+}
+.designer_title{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    opacity: .6;
+}
+.details{
+    margin-left: 20px;
+}
+
+/* packages  */
+.packages_name{
+    font-size: 40px;
+    color: #FF5F49;
+}
+
+.packages_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+    background-color: rgb(248, 241, 241);
+}
+.basic{
+    width: 49%;
+    height: 100%;
+}
+.basic_head {
+    background-color: gray;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+}
+.basic p{
+    height: 60px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rate_container{
+    border-top: 1px solid black;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line_1 button{
+    height: 40px;
+    width: 50px;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+}
+.rate_basic{
+    font-size: 25px;
+}
+.basic_line_2{
+    margin: 10px 0px;
+}
+.sign_up {
+    border-top: 1px solid black;
+    height: 70px;
+}
+.basic_sign_up_btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+}
+
+/* pro  */
+.pro{
+    width: 49%;
+    height: 100%;
+}
+.pro_head{
+    height: 70px;
+    background-color: #FF5F49;
+    font-size: 25px;
+    color: white;
+}
+.rate_pro{
+    font-size: 25px;
+}
+.pro_line_2{
+    margin: 10px 0px;
+}
+.pro_signUp{
+    width: 80px;
+    height: 40px;
+    background-color: #FF5F49;
+    border: none;
+    font-size: 18px;
+}
+
+/* contact  */
+.contact_name{
+    margin-top: 60px;
+    font-size: 40px;
+    color: #FF5F49;
+}
+
+/* form  */
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form input{
+    height: 35px;
+}
+.submit{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    background-color: #FF5F49;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+/* center  */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
